@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&display=swap');
+
 
 * {
     font-family: 'Montserrat';
@@ -9,76 +11,94 @@ body, h1, h2 {
     padding: 0px;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    font-style: italic;
-}
 
-h2 {
-    font-size: 30px;
-    font-weight: lighter;
-    color: #282828;
-    border-bottom: 1px solid #ebebeb;
-    margin-bottom: 16px;
-    padding-bottom: 5px;
-}
-
-.name-text {
-    font-size: 16px;
-    color: #7c7c7c;
-    font-weight: bold;
-}
-
-footer {
-    
-    background-color: #1E1E1E;
-    color: #919191;
-    font-size: 12px;
-    padding: 100px;
-}
 
 .mainbox1 {
     width: auto;
+    height: 35rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
-    margin: 30px;
+    padding: 5rem;
+    margin: 10px;
     border: 1px solid #ebebeb;
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+    display: flex;             /* Flex 컨테이너로 설정 */
+    flex-direction: column;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
+
 }
 
-section {
-    margin-bottom: 24px;
+
+
+.title-box {
+    /* padding-top: 5rem;
+    margin-right: 5rem; */
+    height: auto;
+    float: right;
 }
 
-.name-text {
-    font-size: 16px;
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.main-name {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "Noto Sans KR", sans-serif;
+    text-align: end;
+}
+
+.Introduction-text {
+    font-size: 20px;
     color: #7c7c7c;
     font-weight: bold;
+    text-align: right;
 }
 
-.about-me-text {
-    font-size: 16px;
-    line-height: 16px;
+.mainbox2-float-wrap {
+    overflow: hidden;
+}
+
+.mainbox2 {
+    width: 30rem;
+    float: left;
+    overflow: hidden;
+    margin-top: 5rem;
+    /* margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+    background-color: #f3eeed; */
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #282828;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 16px;
+    margin-top: 2rem;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.float-wrap {
+    overflow: hidden;
 }
 
 .title-text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #282828;
     float: left;
 }
 
 .year-text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: #282828;
     float: right;
-}
-
-.float-wrap {
-    overflow: hidden;
 }
 
 .desc-text {
@@ -91,17 +111,34 @@ section {
     padding-left: 16px;
 }
 
-.title-box {
+.sns-wrap {
+    margin-top: 20rem;
     text-align: right;
+    float: right;
 }
 
 .sns-img {
-    width: 36px;
-    height: 36px;
+    width: 30px;
+    height: 30px;
     margin: 5px;
 }
 
-.sns-wrap {
-    text-align: right;
+.email-address {
+    float: left;
 }
 
+.mainbox3 {
+}
+
+footer {
+    
+    background-color: #1E1E1E;
+    color: #919191;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Connect-Wrap {
+    float: left;
+}

@@ -124,11 +124,12 @@ h2 {
 }
 
 .email-address {
-    float: left;
+    float: right; 
 }
 
 .mainbox3 {
     float: left;
+    width: 20rem;
 }
 
 footer {
@@ -146,4 +147,17 @@ footer {
 
 .mainbox3-float-wrap {
     overflow: hidden;
+}
+
+.email-icon-float-wrap {
+    overflow: hidden;
+    display: flex;             /* Flex 컨테이너로 설정 */
+    flex-direction: row;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
+
+}
+
+.email-icon-size {
+    width: 30px;
+    height: 30px;
+    margin-top: 11px;
 }

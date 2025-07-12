@@ -19,9 +19,9 @@ body, h1, h2 {
     margin-left: auto;
     margin-right: auto;
     padding: 5rem;
-    margin: 10px;
+    margin: 20px;
     border: 1px solid #ebebeb;
-    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.3);
     display: flex;             /* Flex 컨테이너로 설정 */
     flex-direction: column;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
 

@@ -160,7 +160,6 @@
     }
 
     footer {
-        
         background-color: #1E1E1E;
         color: #919191;
         font-size: 12px;
@@ -197,17 +196,21 @@
 
     .skill-section-wrap {
         overflow: hidden;
+        display: flex;             /* Flex 컨테이너로 설정 */
+        flex-direction: row;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
+
     }
 
     .mobile-field-float-left {
         float: left;
-        margin-right: 3rem;
+        width: 10rem;
+        /* margin-right: 3rem; */
     }
 
-    .web-field-float-right {
+    /* .web-field-float-right {
         float: left;
         margin-right: 3rem;
-    }
+    } */
 
     .Skill-Field {
         font-size: 16px;
@@ -215,3 +218,7 @@
         color: #282828;
 
     }
+    
+    .center-line{
+        text-decoration:line-through
+    }   

@@ -1,190 +1,190 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN+Guides&display=swap');
 
 
-* {
-    font-family: 'Montserrat';
-}
+    * {
+        font-family: 'Montserrat';
+    }
 
-body, h1, h2 {
-    margin: 0px;
-    padding: 0px;
-}
-
-
-
-.mainbox1 {
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5rem;
-    margin: 20px;
-    border: 1px solid #ebebeb;
-    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.3);
-    display: flex;             /* Flex 컨테이너로 설정 */
-    flex-direction: column;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
-
-}
+    body, h1, h2 {
+        margin: 0px;
+        padding: 0px;
+    }
 
 
 
-.title-box {
-    /* padding-top: 5rem;
-    margin-right: 5rem; */
-    height: auto;
-    width: auto;
-    text-align: right;
-    /* margin-left: auto; */
-}
+    .mainbox1 {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5rem;
+        margin: 20px;
+        border: 1px solid #ebebeb;
+        box-shadow: 0 1px 20px 0 rgba(0,0,0,0.3);
+        display: flex;             /* Flex 컨테이너로 설정 */
+        flex-direction: column;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
 
-h1 {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Noto Sans KR", sans-serif;
-}
+    }
 
-.my-field-of-development {
-    font-size: 20px;
-    /* color: #7c7c7c; */
-    font-weight: bold;
-    text-align: right;
-    margin-bottom: -10px;
-    font-family: "Noto Sans KR", sans-serif;
-}
 
-.main-name {
-    font-size: 60px;
-    font-weight: bold;
-    font-family: "Noto Sans KR", sans-serif;
-    text-align: end;
-}
 
-.Introduction-text {
-    font-size: 20px;
-    color: #7c7c7c;
-    font-weight: bold;
-    text-align: right;
-}
+    .title-box {
+        /* padding-top: 5rem;
+        margin-right: 5rem; */
+        height: auto;
+        width: auto;
+        text-align: right;
+        /* margin-left: auto; */
+    }
 
-.mainbox2-float-wrap {
-    overflow: hidden;
-}
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: "Noto Sans KR", sans-serif;
+    }
 
-.mainbox2 {
-    width: 30rem;
-    float: left;
-    margin-top: 5rem;
-    margin-bottom: 8rem;
-    /* margin-left: auto;
-    margin-right: auto;
-    border: 1px solid #ebebeb;
-    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
-    background-color: #f3eeed; */
-}
-.career-box {
-    width: auto;
-    margin-top: 5rem;
-}
+    .my-field-of-development {
+        font-size: 20px;
+        /* color: #7c7c7c; */
+        font-weight: bold;
+        text-align: right;
+        margin-bottom: -10px;
+        font-family: "Noto Sans KR", sans-serif;
+    }
 
-.my-skil {
-    width: 30rem;
-    float: right;
-    margin-top: 5rem;
-    margin-bottom: 8rem;
-}
+    .main-name {
+        font-size: 60px;
+        font-weight: bold;
+        font-family: "Noto Sans KR", sans-serif;
+        text-align: end;
+    }
 
-h2 {
-    font-size: 26px;
-    font-weight: bold;
-    color: #282828;
-    border-bottom: 1px solid #ebebeb;
-    margin-bottom: 16px;
-    margin-top: 1rem;
-    padding-bottom: 5px;
-    text-align: left;
-}
+    .Introduction-text {
+        font-size: 20px;
+        color: #7c7c7c;
+        font-weight: bold;
+        text-align: right;
+    }
 
-.float-wrap {
-    overflow: hidden;
-}
+    .mainbox2-float-wrap {
+        overflow: hidden;
+    }
 
-.title-text {
-    font-size: 16px;
-    font-weight: bold;
-    color: #282828;
-    float: left;
-}
+    .mainbox2 {
+        width: 30rem;
+        float: left;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+        /* margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #ebebeb;
+        box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+        background-color: #f3eeed; */
+    }
+    .career-box {
+        width: auto;
+        margin-top: 5rem;
+    }
 
-.year-text {
-    font-size: 16px;
-    font-weight: bold;
-    color: #282828;
-    float: right;
-}
+    .my-skil {
+        width: 30rem;
+        float: right;
+        margin-top: 5rem;
+        margin-bottom: 8rem;
+    }
 
-.desc-text {
-    font-size: 16px;
-}
+    h2 {
+        font-size: 26px;
+        font-weight: bold;
+        color: #282828;
+        border-bottom: 1px solid #ebebeb;
+        margin-bottom: 16px;
+        margin-top: 1rem;
+        padding-bottom: 5px;
+        text-align: left;
+    }
 
-.desc-subtext {
-    font-size: 16px;
-    color: #282828;
-    padding-left: 16px;
-}
+    .float-wrap {
+        overflow: hidden;
+    }
 
-.career-link {
-    font-size: 12px;
-    color: blue;
-    text-align: right;
-}
+    .title-text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #282828;
+        float: left;
+    }
 
-.sns-wrap {
-    float: right;
-    margin-top: 2rem;
-}
+    .year-text {
+        font-size: 16px;
+        font-weight: bold;
+        color: #282828;
+        float: right;
+    }
 
-.sns-img {
-    width: 30px;
-    height: 30px;
-    margin: 5px;
-}
+    .desc-text {
+        font-size: 16px;
+    }
 
-.email-address {
-    float: right; 
-}
+    .desc-subtext {
+        font-size: 16px;
+        color: #282828;
+        padding-left: 16px;
+    }
 
-.mainbox3 {
-    float: left;
-    width: 20rem;
-}
+    .career-link {
+        font-size: 12px;
+        color: blue;
+        text-align: right;
+    }
 
-footer {
-    
-    background-color: #1E1E1E;
-    color: #919191;
-    font-size: 12px;
-    padding: 10px;
-    text-align: center;
-}
+    .sns-wrap {
+        float: right;
+        margin-top: 2rem;
+    }
 
-.Connect-Wrap {
-    float: left;
-}
+    .sns-img {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+    }
 
-.mainbox3-float-wrap {
-    overflow: hidden;
-}
+    .email-address {
+        float: right; 
+    }
 
-.email-icon-float-wrap {
-    overflow: hidden;
-    display: flex;             /* Flex 컨테이너로 설정 */
-    flex-direction: row;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
+    .mainbox3 {
+        float: left;
+        width: 20rem;
+    }
 
-}
+    footer {
+        
+        background-color: #1E1E1E;
+        color: #919191;
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+    }
 
-.email-icon-size {
-    width: 30px;
-    height: 30px;
-    margin-top: 11px;
-}
+    .Connect-Wrap {
+        float: left;
+    }
+
+    .mainbox3-float-wrap {
+        overflow: hidden;
+    }
+
+    .email-icon-float-wrap {
+        overflow: hidden;
+        display: flex;             /* Flex 컨테이너로 설정 */
+        flex-direction: row;    /* 아이템을 세로 방향으로 정렬 (위에서 아래로) */
+
+    }
+
+    .email-icon-size {
+        width: 30px;
+        height: 30px;
+        margin-top: 11px;
+    }
